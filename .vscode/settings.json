@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true, // tells VScode to format files on save
+  "files.eol": "auto",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0078d7"
+  }
+}
