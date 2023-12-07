@@ -21,4 +21,14 @@
   body {
     @apply font-bYekanRegular !important;
   }
+
+  .topRight,
+  .topLeft,
+  .topCenter {
+    @apply flex items-center justify-center gap-[15px];
+  }
+
+  .topCenter li {
+    @apply cursor-pointer text-lg;
+  }
 }
