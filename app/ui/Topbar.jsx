@@ -4,7 +4,7 @@ import {
   faSquarePinterest,
   faTwitter,
   faSquareFacebook,
-  faInstagram,
+  faSquareInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
 
@@ -36,7 +36,7 @@ const Topbar = () => {
         <FontAwesomeIcon icon={faTwitter} />
         <FontAwesomeIcon icon={faSquareFacebook} />
         <FontAwesomeIcon icon={faSquarePinterest} />
-        <FontAwesomeIcon icon={faInstagram} />
+        <FontAwesomeIcon icon={faSquareInstagram} />
       </div>
     </div>
   )
