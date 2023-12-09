@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Sidebar = () => {
   return (
-    <div className="sidebar flex flex-[3] flex-col items-center rounded-md bg-[#fdfbfb] ">
+    <div className="sidebar flex flex-[3] flex-col items-center rounded-md bg-[color:var(--bgSoft)] ">
       <div className="flex flex-col items-center">
         <span className="title ">درباره ویرا</span>
         <Image

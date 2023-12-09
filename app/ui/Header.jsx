@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <div className="mt-[60px] border border-red-700">
+    <div className="mt-[60px]">
       <div className="flex flex-col items-center text-[#444]">
         <span className="absolute top-[18%] text-xl">
           شکوه آموختن با حرفه ایی ها در

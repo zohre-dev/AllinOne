@@ -13,7 +13,7 @@ const LoginPage = () => {
         <input
           type="password"
           placeholder="رمز ورود"
-          className="mb-5 border-none bg-white p-[10px] focus:outline-none"
+          className="mb-5 border-none bg-white p-[10px]  focus:outline-none"
         />{' '}
         <button className="bg-[ #087bea] mb-5 cursor-pointer rounded-md border-none bg-[#ff5555] p-[10px] text-white">
           ورود
@@ -25,7 +25,7 @@ const LoginPage = () => {
           ورود با گیت هاب
         </button>
       </form>
-      <button className="absolute right-7 top-20 cursor-pointer rounded-md border-none bg-[teal] p-[10px] text-white">
+      <button className="absolute right-7 top-20 cursor-pointer rounded-md border-none bg-[teal] px-[20px] py-[10px] text-white">
         ثبت نام
       </button>
     </div>

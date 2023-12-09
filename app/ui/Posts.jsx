@@ -8,10 +8,10 @@ const Posts = () => {
         <Post />
       </div>
       <div className="mt-[15px]  flex items-center justify-between">
-        <button className="max-w-fit cursor-pointer border-none bg-[crimson] px-6 py-3 text-white">
+        <button className="max-w-fit cursor-pointer border-none bg-[#ff5555] px-6 py-3 text-white">
           بعدی
         </button>
-        <button className="max-w-fit cursor-pointer border-none bg-[crimson] px-6 py-3 text-white">
+        <button className="max-w-fit cursor-pointer border-none bg-[#ff5555] px-6 py-3 text-white">
           قبلی
         </button>
       </div>
