@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import {
   faSquarePinterest,
   faTwitter,
@@ -23,18 +22,15 @@ const Topbar = () => {
         <Link href="./login" className="cursor-pointer">
           ورود
         </Link>
-
-        <FontAwesomeIcon
-          icon={faMagnifyingGlass}
-          className="text-lg text-[#666]"
-        />
       </div>
 
       <ul className="topCenter flex-[6] font-extrabold">
         <Link href="./">
           <li>خانه</li>
         </Link>
-        <li>اساتید</li>
+        <Link href="./teachers">
+          <li>اساتید</li>
+        </Link>
         <li>درباره ی ما</li>
         <Link href="./">
           <li>خروج</li>
