@@ -14,10 +14,6 @@
   }
 }
 
-/* body {
-  font-family: BYekan !important;
-} */
-
 @layer components {
   body {
     @apply bg-[color:var(--bg)] font-bYekanRegular !important;
@@ -43,5 +39,10 @@
 
   .teachersTable td {
     @apply p-[10px];
+  }
+
+  .profile input,
+  textarea {
+    @apply mb-6 mt-1 border border-[#dbdbdb] p-2 outline-none;
   }
 }
