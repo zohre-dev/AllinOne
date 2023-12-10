@@ -1,6 +1,6 @@
 const Register = () => {
   return (
-    <div className="flex h-[calc(100vh-50px)] flex-col items-center justify-center  bg-[linear-gradient(to_right_bottom,rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('/images/02bg.png')] bg-repeat">
+    <div className="flex min-h-[calc(100vh-50px)] flex-col items-center justify-center  bg-[linear-gradient(to_right_bottom,rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('/images/02bg.png')] bg-repeat">
       <span className="text-3xl">ثبت نام</span>
       <form className="mt-5 flex flex-col gap-[10px]">
         <label>نام کاربری :</label>
