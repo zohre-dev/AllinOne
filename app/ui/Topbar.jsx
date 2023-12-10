@@ -12,13 +12,15 @@ const Topbar = () => {
   return (
     <div className="sticky top-0 z-50 flex h-[50px] w-full items-center bg-[color:var(--bgSoft)] ">
       <div className="topRight  flex-[3] ">
-        <Image
-          src="/images/students/01.jpg"
-          width={40}
-          height={40}
-          alt="profile image"
-          className="cursor-pointer rounded-full object-cover"
-        />
+        <Link href="./profile">
+          <Image
+            src="/images/students/01.jpg"
+            width={40}
+            height={40}
+            alt="profile image"
+            className="cursor-pointer rounded-full object-cover"
+          />
+        </Link>
         <Link href="./login" className="cursor-pointer">
           ورود
         </Link>
